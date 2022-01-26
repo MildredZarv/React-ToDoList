@@ -1,11 +1,9 @@
-div{
+img{
     margin-top: -20px;
     background-size:cover;
     width: 10%;
     height: 10%;
     animation-iteration-count: infinite;
-
-    background-image: url(../images/new-task.png);
 }
 h3{
     color:indigo;
