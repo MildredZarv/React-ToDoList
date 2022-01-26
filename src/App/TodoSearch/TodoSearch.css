@@ -1,0 +1,27 @@
+.search-container{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 5px rgba(138,138,138,0.16);
+    height: 55px;
+    margin-left: calc(50% - 170px);
+    margin-bottom: 50px;
+    padding: 0 20px;
+    width: 300px;
+}
+.search-task{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    height: 100%;
+    outline: none;
+    text-align: left;
+}
+.search-icon{
+    background-image: url('../images/search.png');
+    background-size: cover;
+    display: inline-block;
+    height: 25px;
+    margin-left: 40px;
+    vertical-align: middle;
+    width: 25px;
+}

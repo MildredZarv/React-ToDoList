@@ -1,0 +1,82 @@
+.dots-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.dot{
+    animation-iteration-count: infinite;
+    background-color: rgb(166, 78, 238);
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+}
+.dot1{
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.dot2{
+    animation-name: animation2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.dot3{
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes animation1 {
+    0% {
+        transform: scale(1.3);
+        opacity: 1;
+      }
+      30%{
+          transform: scale(1);
+          opacity: 0.7;
+      }
+      100%{
+          transform: scale(1);
+          opacity: 0.7;
+      }
+}
+@keyframes animation2 {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+      30%{
+          transform: scale(1.3);
+          opacity: 1;
+      }
+      60%{
+          transform: scale(1);
+          opacity: 0.7;
+      }
+      100%{
+          transform: scale(1);
+          opacity: 0.7;
+      }
+}
+@keyframes animation3 {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+      30%{
+          transform: scale(1);
+          opacity: 0.7;
+      }
+      60%{
+          transform: scale(1.3);
+          opacity: 1;
+      }
+      100%{
+          transform: scale(1);
+          opacity: 0.7;
+      }
+}

@@ -1,0 +1,80 @@
+body{
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+form{
+    align-content: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(32deg, #FFDEE9 0%, #B5FFFC 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 33px 40px;
+    width: 90%;
+    height: 400px;
+}
+label{
+  color: #1E1E1F;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 26px;
+  margin-top: 10px;
+}
+textarea{
+  background-color: #F9FBFC;
+  border: 2px, solid #202329;
+  border-radius: 2px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+  color: #1E1E1F;
+  font-size: 20px;
+  height: 96px;
+  margin-top: 20px;
+  opacity: 0.65;
+  padding: 12px;
+  text-align: center;
+  width: calc(100%-25px);
+}
+textarea::placeholder{
+  border-radius: 15px;
+  color: #a5a5a5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+textarea:focus{
+  outline-color: #61DAFA;
+}
+.TodoForm-buttonContainer{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.TodoForm-button{
+  border-radius: 10px;
+  border: none;
+  color: #202329;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 400;
+  height: 48px;
+  width: 120px;
+}
+.TodoForm-button-add{
+  background-image: linear-gradient(to right, #DA22FF 0%, rgb(116, 54, 173)  51%, #DA22FF  100%);
+  background-size: 200% auto;
+  color: white;
+  margin-right: 20px;
+  transition: 0.5s
+}
+.TodoForm-button-add:hover{
+  background-position: right center;
+}
+.TodoForm-button-cancel{
+  border: 1px solid gainsboro;
+  background: whitesmoke;
+}

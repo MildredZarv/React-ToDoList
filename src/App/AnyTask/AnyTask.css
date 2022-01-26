@@ -1,0 +1,40 @@
+img{
+    margin-top: -20px;
+    background-size:cover;
+    width: 10%;
+    height: 10%;
+    animation-iteration-count: infinite;
+}
+h3{
+    color:indigo;
+    font-size: 30px;
+    width: 100%;
+    margin-left: -15px;
+    margin-bottom: 15px;
+}
+p{
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    margin-left: -15px;
+    margin-bottom: 40px;
+}
+#movement{
+    animation-name: rainbow;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+@keyframes rainbow {
+    0% {
+      transform: rotate(-10deg);
+    }
+    35% {
+      transform: rotate(30deg);
+    }
+    65%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+  }

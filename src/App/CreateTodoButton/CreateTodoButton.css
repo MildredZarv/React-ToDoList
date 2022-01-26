@@ -1,0 +1,17 @@
+.createTaskButton{
+    background-image: linear-gradient(to right, #DA22FF 0%, rgb(116, 54, 173)  51%, #DA22FF  100%);
+    background-size: 200% auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    margin: 0 auto;
+    transition: 0.5s;
+    width: 150px;
+}
+.createTaskButton:hover{
+    background-position: right center;
+    cursor: pointer;
+}
+
