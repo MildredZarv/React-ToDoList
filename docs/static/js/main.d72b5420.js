@@ -8460,7 +8460,7 @@
         e.exports = n(813);
       },
       314: function (e, t, n) {
-        e.exports = n.p + "./static/media/new-task.229542fb359cd8f2188d.png";
+        e.exports = n.p + "./React-ToDoList/static/media/new-task.229542fb359cd8f2188d.png";
       },
     },
     t = {};
